@@ -11,5 +11,7 @@ services:
       - psql_volume:/var/lib/postgresql
       - ./internal/sql/:/docker-entrypoint-initdb.d/
 
+      #TODO: Setup reverse proxy image
+
 volumes:
   psql_volume:

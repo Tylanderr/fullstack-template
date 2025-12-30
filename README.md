@@ -11,7 +11,6 @@ Includes:
 
 ## TODO
 - Docker compose
-    - Local DB
     - Containerization of backend/frontend modules
     - Reverse Proxy
 
@@ -26,3 +25,9 @@ Includes:
 - Reverse Proxy setup
 - CI/CD
     - Make it as simple as provide an applciation name and server destination
+
+## DONE
+- Docker compose
+    - Local DB
+        - postgres db image is pulled
+        - init sql shell created, with some sample data
